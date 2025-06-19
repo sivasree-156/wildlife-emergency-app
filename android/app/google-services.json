@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "137939160310",
+    "firebase_url": "https://vvxplore-b0d5f-default-rtdb.firebaseio.com",
+    "project_id": "vvxplore-b0d5f",
+    "storage_bucket": "vvxplore-b0d5f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137939160310:android:f71b0e1cd2f768fe7eb0d7",
+        "android_client_info": {
+          "package_name": "com.example.vvxplore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvlXje5O2tiTxe3p_vDO3iT_AXolS3CEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

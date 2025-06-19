@@ -1,0 +1,12 @@
+0 Kanyakumari
+1 Kodaikanal
+2 Madurai
+3 Mahabalipuram
+4 Namakkal
+5 Ooty
+6 Rameshwaram
+7 Red Fort
+8 Thanjavur Periya Kovil
+9 Tuticorin
+10 Uvari
+11 Valaparai

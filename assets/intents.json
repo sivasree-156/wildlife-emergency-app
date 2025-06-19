@@ -1,0 +1,1446 @@
+
+
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "Hello",
+        "Hi",
+        "Welcome",
+        "hello"
+      ],
+      "responses": [
+        "Hi, Welcome to VVxplore how can i help you."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "animal_weight",
+      "patterns": [
+        "what is the average weight of a lion",
+        "what is the weight of lion",
+        "average weight of lion",
+        "what is the average weight of lion",
+        "weight of lion",
+        "tell me the weight of lion",
+        "tell me the average weight of a lion",
+        "give the weight of lion",
+        "give the average weight of lion"
+      ],
+      "responses": [
+        "The average weight of a male lion is about 190 Kg and female lion is 126 Kg."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "animal_weight",
+      "patterns": [
+        "what is the average weight of an elephant",
+        "what is the weight of elephant",
+        "average weight of elephant",
+        "what is the average weight of elephant",
+        "weight of elephant",
+        "tell me the weight of elephant",
+        "tell me the average weight of a elephant",
+        "give the weight of elephant",
+        "give the average weight of elephant"
+      ],
+      "responses": [
+        "The average weight of a male elephant is about 5400 Kg and female elephant is about 3600 Kg."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "animal_weight",
+      "patterns": [
+        "what is the average weight of a cat",
+        "what is the weight of cat",
+        "average weight of cat",
+        "what is the average weight of cat",
+        "weight of cat",
+        "tell me the weight of cat",
+        "tell me the average weight of a cat",
+        "give the weight of a cat",
+        "give the average weight of cat"
+      ],
+      "responses": [
+        "The average weight of a domesticated male cat is 4.5 Kg and female cat is 3.5 Kg."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "animal_weight",
+      "patterns": [
+        "what is the average weight of a dog",
+        "what is the weight of dog",
+        "average weight of dog",
+        "what is the average weight of dog",
+        "weight of dog",
+        "tell me the weight of dog",
+        "tell me the average weight of a dog",
+        "give the weight of dog",
+        "give the average weight of dog"
+      ],
+      "responses": [
+        "The average weight of a domesticated male dog is 13.5 Kg and female dog is 11 Kg."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "animal_height",
+      "patterns": [
+        "what is the average height of a lion",
+        "what is the height of lion",
+        "average height of lion",
+        "what is the average height of lion",
+        "height of lion",
+        "tell me the height of lion",
+        "tell me the average height of a lion",
+        "give the height of lion",
+        "give the average height of lion"
+      ],
+      "responses": [
+        "The average height of a male lion is about 1.2 meters and female lion is about 1.1 meters."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "animal_height",
+      "patterns": [
+        "what is the average height of an elephant",
+        "what is the height of elephant",
+        "average height of elephant",
+        "what is the average height of elephant",
+        "height of elephant",
+        "tell me the height of elephant",
+        "tell me the average height of a elephant",
+        "give the height of elephant",
+        "give the average height of elephant"
+      ],
+      "responses": [
+        "The average height of a male elephant is about 3.2 meters at the shoulder and female elephant is about 2.7 meters at the shoulder."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "animal_height",
+      "patterns": [
+        "what is the average height of a cat",
+        "what is the height of cat",
+        "average height of cat",
+        "what is the average height of cat",
+        "height of cat",
+        "tell me the height of cat",
+        "tell me the average height of a cat",
+        "give the height of a cat",
+        "give the average height of cat"
+      ],
+      "responses": [
+        "The average height of a domesticated male cat is 25 cm at the shoulder and female cat is 23 cm at the shoulder."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "animal_height",
+      "patterns": [
+        "what is the average height of a dog",
+        "what is the height of dog",
+        "average height of dog",
+        "what is the average height of dog",
+        "height of dog",
+        "tell me the height of dog",
+        "tell me the average height of a dog",
+        "give the height of dog",
+        "give the average height of dog"
+      ],
+      "responses": [
+        "The average height of a domesticated male dog is 45 cm at shoulder and female dog is 40 cm at shoulder."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "animal_life_expectancy",
+      "patterns": [
+        "what is the average life expectancy of a lion",
+        "what is the  life expectancy of lion",
+        "average life expectancy of lion",
+        "what is the average life expectancy of lion",
+        "life expectancy of lion",
+        "tell me the life expectancy of lion",
+        "tell me the average life expectancy of a lion",
+        "give the life expectancy of lion",
+        "give the average life expectancy of lion"
+      ],
+      "responses": [
+        "The average life expectancy of a lion in the wild is about 12 years and in the captivity is 20 years."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "animal_life_expectancy",
+      "patterns": [
+        "what is the average life expectancy of an elephant",
+        "what is the  life expectancy of an elephant",
+        "average life expectancy of an elephant",
+        "what is the average life expectancy of elephant",
+        "life expectancy of elephant",
+        "tell me the life expectancy of an elephant",
+        "tell me the average life expectancy of a elephant",
+        "give the life expectancy of an elephant",
+        "give the average life expectancy of an elephant",
+        "give the life expectancy of a elephant",
+        "give the average life expectancy of a elephant"
+      ],
+      "responses": [
+        "The average life expectancy of an elephant in the wild is about 65 years and in the captivity is about 55 years."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "animal_life_expectancy",
+      "patterns": [
+        "what is the average life expectancy of a cat",
+        "what is the  life expectancy of cat",
+        "average life expectancy of cat",
+        "what is the average life expectancy of cat",
+        "life expectancy of cat",
+        "tell me the life expectancy of cat",
+        "tell me the average life expectancy of a cat",
+        "give the life expectancy of cat",
+        "give the average life expectancy of cat"
+      ],
+      "responses": [
+        "The average life expectancy of a cat in the indoors is about 14 years and in outdoors is about 6 years. Please note that depending on the species this value can change"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "animal_life_expectancy",
+      "patterns": [
+        "what is the average life expectancy of a dog",
+        "what is the  life expectancy of dog",
+        "average life expectancy of dog",
+        "what is the average life expectancy of dog",
+        "life expectancy of dog",
+        "tell me the life expectancy of dog",
+        "tell me the average life expectancy of a dog",
+        "give the life expectancy of dog",
+        "give the average life expectancy of dog"
+      ],
+      "responses": [
+        "The average life expectancy of a dog in the indoors is about 14 years and in the outdoors is 6 years. Please note that depending on the species this value can change"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "animal_life_span",
+      "patterns": [
+        "what is the average life span of a lion",
+        "what is the  life span of lion",
+        "average life span of lion",
+        "what is the average life span of lion",
+        "life span of lion",
+        "tell me the life span of lion",
+        "tell me the average life span of a lion",
+        "give the life span of lion",
+        "give the average life span of lion"
+      ],
+      "responses": [
+        "The average life span of a lion in the wild is about 12 years and in the captivity is 20 years."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "animal_life_span",
+      "patterns": [
+        "what is the average life span of an elephant",
+        "what is the  life span of an elephant",
+        "average life span of an elephant",
+        "what is the average life span of elephant",
+        "life span of elephant",
+        "tell me the life span of an elephant",
+        "tell me the average life span of a elephant",
+        "give the life span of an elephant",
+        "give the average life span of an elephant",
+        "give the life span of a elephant",
+        "give the average life span of a elephant"
+      ],
+      "responses": [
+        "The average life span of an elephant in the wild is about 65 years and in the captivity is about 55 years."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "animal_life_span",
+      "patterns": [
+        "what is the average life span of a cat",
+        "what is the  life span of cat",
+        "average life span of cat",
+        "what is the average life span of cat",
+        "life span of cat",
+        "tell me the life span of cat",
+        "tell me the average life span of a cat",
+        "give the life span of cat",
+        "give the average life span of cat"
+      ],
+      "responses": [
+        "The average life span of a cat in the indoors is about 14 years and in outdoors is about 6 years. Please note that depending on the species this value can change"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "animal_life_span",
+      "patterns": [
+        "what is the average life span of a dog",
+        "what is the  life span of dog",
+        "average life spany of dog",
+        "what is the average life span of dog",
+        "life span of dog",
+        "tell me the life span of dog",
+        "tell me the average life span of a dog",
+        "give the life span of dog",
+        "give the average life span of dog"
+      ],
+      "responses": [
+        "The average life span of a dog in the indoors is about 14 years and in the outdoors is 6 years. Please note that depending on the species this value can change"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "scientific_name",
+      "patterns": [
+        "what is the scientific name of a lion",
+        "can you tell me the scientific name of a lion",
+        "what is the scientific name of a lion",
+        "scientific name of a lion",
+        "lion scientific name",
+        "what is the scientific name of lion",
+        "give me the scientific name of a lion",
+        "what do scientists call a lion",
+        "how is a lion classified scientifically",
+        "what is the binomial name of a lion",
+        "what is the taxonomy of a lion",
+        "how do experts refer to a lion in scientific terms",
+        "what is the latin name of a lion",
+        "what is the zoological name of a lion",
+        "tell me the binomial nomenclature of a lion"
+      ],
+      "responses": [
+        "The scientific name of Lion is Panthera Leo."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "scientific_name",
+      "patterns": [
+        "what is the scientific name of an elephant",
+        "what is the scientific name of elephant",
+        "can you tell me the scientific name of an elephant",
+        "what is the scientific name of an elephant",
+        "scientific name of an elephant",
+        "elephant scientific name",
+        "give me the scientific name of an elephant",
+        "what do scientists call an elephant",
+        "how is an elephant classified scientifically",
+        "how do experts refer to an elephant in scientific terms",
+        "what is the latin name of an elephant",
+        "what is the zoological name of an elephant",
+        "tell me the binomial nomenclature of an elephant",
+        "what is the classification of an elephant",
+        "how is an elephant scientifically classified"
+      ],
+      "responses": [
+        "The scientific name of Elephant is Elephantidae."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "scientific_name",
+      "patterns": [
+        "what is the scientific name of a cat",
+        "what is the scientific name of cat",
+        "can you tell me the scientific name of a cat",
+        "what is the scientific name of a cat",
+        "scientific name of a cat",
+        "cat scientific name",
+        "give me the scientific name of a cat",
+        "what do scientists call a cat",
+        "how is a cat classified scientifically",
+        "what is the binomial name of a cat",
+        "what is the taxonomy of a cat",
+        "under what name is a cat classified",
+        "how do experts refer to a cat in scientific terms",
+        "what is the latin name of a cat",
+        "what is the zoological name of a cat",
+        "tell me the binomial nomenclature of a cat",
+        "what is the classification of a cat",
+        "how is a cat scientifically classified"
+      ],
+      "responses": [
+        "The scientific name of Cat is Felis catus."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "scientific_name",
+      "patterns": [
+        "what is the scientific name of a dog",
+        "What is the scientific name of dog",
+        "can you tell me the scientific name of a dog",
+        "what iss the scientific name of a dog",
+        "scientific name of a dog",
+        "dog scientific name",
+        "give me the scientific name of a dog",
+        "what do scientists call a dog",
+        "how is a dog classified scientifically",
+        "what is the binomial name of a dog",
+        "what is the taxonomy of a dog",
+        "under what name is a dog classified",
+        "how do experts refer to a dog in scientific terms",
+        "what is the latin name of a dog",
+        "what is the zoological name of a dog",
+        "tell me the binomial nomenclature of a dog",
+        "what is the classification of a dog",
+        "how is a dog scientifically classified"
+      ],
+      "responses": [
+        "The scientific name of Dog is Canis lupus familiaris."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "habitat",
+      "patterns": [
+        "where does the lion live",
+        "where can i find the lion",
+        "what is the habitat of the lion",
+        "where is the natural habitat of a lion",
+        "where are lions typically found",
+        "which areas do lions inhabit",
+        "what type of environment do lions live in",
+        "where do lions roam in the wild",
+        "what is the geographical range of lions",
+        "can lions be found in forests, grasslands, or deserts",
+        "what type of climate does a lion prefer",
+        "do lions live in jungles or open plains",
+        "where are lions most commonly found",
+        "what kind of terrain does a lion inhabit",
+        "which regions are home to lions",
+        "are lions found in cold or warm regions"
+      ],
+      "responses": [
+        "Lion mostly lives in grasslands."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "habitat",
+      "patterns": [
+        "where does this elephant live",
+        "where can I find the elephant",
+        "what is the habitat of this elephant",
+        "where are elephants commonly found",
+        "what type of environment does this elephant prefer",
+        "where do elephants roam in the wild",
+        "what regions are home to elephants",
+        "where can I encounter this elephant species",
+        "which areas do elephants inhabit",
+        "what kind of terrain does this elephant live in",
+        "does this elephant live in forests, grasslands, or savannas",
+        "where do elephants thrive in the wild",
+        "what is the natural habitat of elephants",
+        "can elephants be found in cold or warm climates",
+        "what type of climate is suitable for elephants",
+        "are elephants found in deserts, forests, or wetlands"
+
+      ],
+      "responses": [
+        "The elephant mostly lives in forest and grassland."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "habitat",
+      "patterns": [
+        "where does this cat live",
+        "where can i find this cat",
+        "what is the habitat of this cat",
+        "where is the natural habitat of a cat",
+        "where do cats typically live",
+        "what type of environment does this cat prefer",
+        "can this cat be found in homes or the wild",
+        "where are domestic cats most commonly found",
+        "where are wild cats usually found",
+        "what kind of terrain does this cat live in",
+        "what type of climate is suitable for this cat",
+        "does this cat live in forests, grasslands, or urban areas",
+        "can cats adapt to different environments",
+        "are cats found in cold or warm climates",
+        "where can i encounter this species of cat",
+        "what is the preferred environment for this cat"
+
+      ],
+      "responses": [
+        "The cat lives in homes and they are mostly domestic."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "habitat",
+      "patterns": [
+
+        "where does this dog live",
+        "where can i find the dog",
+        "what is the habitat of this dog",
+        "which regions are home to this dog",
+        "is this dog found in the wild or domesticated",
+        "what type of environment does this dog prefer",
+        "does this dog live in forests, grasslands, or urban areas",
+        "can i find this dog in my country",
+        "in which continents does this dog live",
+        "is this dog native to any specific region",
+        "does this dog migrate or stay in one place",
+        "is this dog commonly found in cold or warm climates",
+        "what is the natural habitat of this species",
+        "are these dogs found in mountainous areas",
+        "can this dog adapt to different environments"
+      ],
+      "responses": [
+        "The dog lives in homes and they are mostly domestic."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "conservation_status",
+      "patterns": [
+        "is the lion endangered",
+        "what is the conservation status of a lion",
+        "is the lions at risk of extinction",
+        "how endangered is the lion",
+        "what is the threat level to lions",
+        "are lions an endangered species",
+        "what is the population status of the lion",
+        "is the lion facing extinction risks",
+        "are lions endangered or vulnerable",
+        "how many lions are left in the wild",
+        "what is the current conservation status of lions",
+        "are lions in danger of disappearing",
+        "what efforts are being made to protect lions",
+        "are lions at risk of becoming extinct",
+        "what is the survival outlook for lions"
+
+      ],
+      "responses": [
+        "Lions are not currently endangered, their population is estimated to be around 20000 to 39000 in the world."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "conservation_status",
+      "patterns": [
+        "is elephants endangered",
+        "is the elephant endangered",
+        "what is the conservation status of an elephant",
+        "is the elephant at risk of extinction",
+        "how endangered is the elephant",
+        "what is the threat level to elephants",
+        "are elephants an endangered species",
+        "what is the population status of the elephant",
+        "is the elephant facing extinction risks",
+        "are elephants endangered or vulnerable",
+        "how many elephants are left in the wild",
+        "what is the current conservation status of elephants",
+        "are elephants in danger of disappearing",
+        "what efforts are being made to protect elephants",
+        "are elephants at risk of becoming extinct",
+        "what is the survival outlook for elephants"
+      ],
+      "responses": [
+        "Elephants are considered as endangered species. With african elephants being considered critically endangered."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "conservation_status",
+      "patterns": [
+        "is the cat endangered",
+        "is cat endangered",
+        "what is the conservation status of a cat",
+        "is the cat at risk of extinction",
+        "how endangered is this cat",
+        "what is the threat level to cats",
+        "are cats an endangered species",
+        "what is the population status of this cat",
+        "is the cat facing extinction risks",
+        "are cats endangered or vulnerable",
+        "how many of this cat species are left in the wild",
+        "what is the current conservation status of cats",
+        "are cats in danger of disappearing",
+        "what efforts are being made to protect cats",
+        "are cats at risk of becoming extinct",
+        "what is the survival outlook for cats"
+      ],
+      "responses": [
+        "Some wild cat species are endangered, while domestic cats are not typically considered endangered."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "conservation_status",
+      "patterns": [
+        "is the dog endangered",
+        "is dogs endangered",
+        "what is the conservation status of a dog",
+        "is the dog at risk of extinction",
+        "how endangered is this dog",
+        "what is the threat level to dogs",
+        "are dogs an endangered species",
+        "what is the population status of this dog",
+        "is the dog facing extinction risks",
+        "are dogs endangered or vulnerable",
+        "how many dogs of this species are left in the wild",
+        "what is the current conservation status of dogs",
+        "are dogs in danger of disappearing",
+        "what efforts are being made to protect dogs",
+        "are dogs at risk of becoming extinct",
+        "what is the survival outlook for dogs"
+      ],
+      "responses": [
+        "Domestic dogs are not an endangered species."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "diet",
+      "patterns": [
+        "what does a lion eat",
+        "food of a lion",
+        "diet of lions",
+        "what is the diet of a lion",
+        "what do lions typically eat",
+        "what is the food preference of a lion",
+        "what do lions hunt for food",
+        "are lions carnivores or herbivores",
+        "what is the primary diet of a lion",
+        "how does a lion obtain its food",
+        "what type of prey do lions prefer",
+        "do lions eat meat or plants",
+        "what is the feeding behavior of lions",
+        "how often do lions eat in the wild",
+        "what is the hunting strategy of a lion",
+        "what is the nutritional needs of a lion"
+      ],
+      "responses": [
+        "Lions are carnivores and primarily eat meat, including large ungulates like zebras and wildebeests."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "diet",
+      "patterns": [
+        "what does an elephant eat",
+        "what do elephants eat",
+        "what is the diet of an elephant",
+        "what do elephants typically eat",
+        "what is the food preference of an elephant",
+        "what do elephants hunt for food",
+        "are elephants carnivores or herbivores",
+        "what is the primary diet of this elephant",
+        "how does this elephant obtain its food",
+        "what type of prey do elephants prefer",
+        "do elephants eat meat or plants",
+        "what is the feeding behavior of elephants",
+        "how often do elephants eat in the wild",
+        "what is the hunting strategy of an elephant",
+        "what is the nutritional needs of an elephant"
+      ],
+      "responses": [
+        "Elephants are herbivores and primarily eat grasses, leaves, fruits, and bark."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "diet",
+      "patterns": [
+        "what does a cat eat",
+        "what does the cat eat",
+        "what is the diet of cats",
+        "what do cats typically eat",
+        "what is the food preference of a cat",
+        "what do cats hunt for food",
+        "are cats carnivores or herbivores",
+        "what is the primary diet of a cat",
+        "how does a cat obtain its food",
+        "what type of prey do cats prefer",
+        "do cats eat meat or plants",
+        "what is the feeding behavior of cats",
+        "how often do cats eat in the wild",
+        "what is the hunting strategy of a cat",
+        "what is the nutritional needs of a cat"
+      ],
+      "responses": [
+        "Cats are obligate carnivores and primarily eat meat, including small mammals,birds,plant-based foods and milk."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "diet",
+      "patterns": [
+        "what does dogs eat",
+        "what does a dog eat",
+        "food for dogs",
+        "what is the diet of a dog",
+        "what do dogs typically eat",
+        "what is the food preference of a dog",
+        "what do dogs hunt for food",
+        "are dogs carnivores or herbivores",
+        "what is the primary diet of a dog",
+        "how does a dog obtain its food",
+        "what type of prey do dogs prefer",
+        "do dogs eat meat or plants",
+        "what is the feeding behavior of dogs",
+        "how often do dogs eat in the wild",
+        "what is the hunting strategy of a dog",
+        "what is the nutritional needs of a dog"
+      ],
+      "responses": [
+        "Dogs are omnivores and typically eat a balanced diet that includes both meat and plant-based foods."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "species_count",
+      "patterns": [
+        "how many species of lion is there",
+        "species count of lion",
+        "different types of lion species",
+        "tell me the number of species of lion",
+        "total number of lion species",
+        "lion species",
+        "lion species count",
+        "count of lion species",
+        "lion species count",
+        "give me the count of lion species",
+        "how many species of lion is present"
+
+      ],
+      "responses": [
+        "There are two subspecies of lions, they are African lion and Asiatic lion."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "species_count",
+      "patterns": [
+        "how many species of elephant is there",
+        "species count of elephant",
+        "different types of elephant species",
+        "tell me the number of species of elephant",
+        "total number of elephant species",
+        "elephant species",
+        "elephant species count",
+        "count of elephant species",
+        "elephant species count",
+        "give me the count of elephant species",
+        "how many species of elephant is present"
+
+      ],
+      "responses": [
+        "There are three subspecies of elephant, they are African Savanna(Bush) elephant, African Forest elephant and Asian elephant."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "species_count",
+      "patterns": [
+        "how many species of cat is there",
+        "species count of cat",
+        "different types of cat species",
+        "tell me the number of species of cat",
+        "total number of cat species",
+        "cat species",
+        "cat species count",
+        "count of cat species",
+        "cat species count",
+        "give me the count of cat species",
+        "how many species of cat is present"
+
+      ],
+      "responses": [
+        "There are 41 species of cats in the world."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "species_count",
+      "patterns": [
+        "how many species of dog is there",
+        "species count of dog",
+        "different types of dog species",
+        "tell me the number of species of dog",
+        "total number of dog species",
+        "dog species",
+        "dog species count",
+        "count of dog species",
+        "dog species count",
+        "give me the count of dog species",
+        "how many species of dog is present"
+
+      ],
+      "responses": [
+        "There are around 340 recognized dog breeds worldwide."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag":"migration",
+      "patterns":[
+        "do lions migrate",
+        "do lions move from one place to another",
+        "do lions travel long distances",
+        "does a lion migrate",
+        "do lions change their location",
+        "do lions have migration patterns",
+        "do lions migrate seasonally",
+        "do lions migrate in search of food",
+        "do lions migrate for breeding",
+        "do lions migrate to find water",
+        "do lions migrate to find mates",
+        "do lions migrate to different habitats"
+      ],
+      "responses":[
+        "Lions do not typically migrate long distances like some other animals. They have a home range and may move within that area in search of food or water, but they do not have a specific migration pattern."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag":"migration",
+      "patterns":[
+        "do elephants migrate",
+        "migration of elephants",
+        "migration of an elephant",
+        "does an elephant migrate",
+        "do elephants move from one place to another",
+        "do elephants travel long distances",
+        "do elephants change their location",
+        "do elephants have migration patterns",
+        "do elephants migrate seasonally",
+        "do elephants migrate in search of food",
+        "do elephants migrate for breeding",
+        "do elephants migrate to find water",
+        "do elephants migrate to find mates",
+        "do elephants migrate to different habitats"
+      ],
+      "responses":[
+        "Elephants are known to migrate in search of food and water, especially during dry seasons. They can travel long distances and often follow established migration routes. They travel in groups"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag":"migration",
+      "patterns":[
+        "do cats migrate",
+        "does a cat migrate",
+        "do cats move from one place to another",
+        "do cats travel long distances",
+        "do cats change their location",
+        "do cats have migration patterns",
+        "do cats migrate seasonally",
+        "do cats migrate in search of food",
+        "do cats migrate for breeding",
+        "do cats migrate to find water",
+        "do cats migrate to find mates",
+        "do cats migrate to different habitats"
+      ],
+
+      "responses":[
+        "Cats do not typically migrate long distances. They are territorial animals and usually stay within their home range. However, they may move to new areas in search of food or shelter."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag":"migration",
+      "patterns":[
+        "do dogs migrate",
+        "does dogs migrate",
+        "does a dog migrate",
+        "do dogs move from one place to another",
+        "do dogs travel long distances",
+        "do dogs change their location",
+        "do dogs have migration patterns",
+        "do dogs migrate seasonally",
+        "do dogs migrate in search of food",
+        "do dogs migrate for breeding",
+        "do dogs migrate to find water",
+        "do dogs migrate to find mates",
+        "do dogs migrate to different habitats"
+      ],
+      "responses":[
+        "Dogs do not typically migrate like wild animals. They are domesticated and usually stay close to their human companions. However, they may travel with their owners or move to new locations."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag":"behavior",
+      "patterns":[
+        "how do lions behave",
+        "what is the behavior of lions",
+        "give the behavior of lions",
+        "tell the behavior of lions",
+        "how do lions interact with each other",
+        "what are the social behaviors of lions",
+        "what is the hunting behavior of lions",
+        "what is the territorial behavior of lions",
+        "how do lions establish dominance",
+        "what are the mating behaviors of lions",
+        "how do lions care for their cubs",
+        "what is the social structure of a lion pride"
+      ],
+      "responses":[
+        "Lions are social animals that live in prides. They exhibit complex social behaviors, including grooming, vocalizations, and cooperative hunting. Usually female lions take care of the cubs."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag":"behavior",
+      "patterns":[
+        "how does a dog behave",
+        "what is the behavior of a dog",
+        "how do dogs interact with humans",
+        "what are the social behaviors of a dog",
+        "what is the hunting behavior of a dog",
+        "how do dogs raise its young",
+        "what is the territorial behavior of a dog",
+        "how does a dog establish dominance",
+        "what are the mating behaviors of dogs",
+        "how does a dog care for its puppies",
+        "what is the social structure of a dog breed"
+      ],
+      "responses":[
+        "Dogs are social animals that exhibit a wide range of behaviors. They are known for their loyalty, playfulness, and ability to bond with humans."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag":"behavior",
+      "patterns":[
+        "how does a cat behave",
+        "behavior of a cat",
+        "what is the behavior of a cat",
+        "how does a cat interact with humans",
+        "what are the social behaviors of a cat",
+        "what is the hunting behavior of a cat",
+        "how does this cat raise its young",
+        "what is the territorial behavior of a cat",
+        "how do cats establish dominance",
+        "what are the mating behaviors of a cat",
+        "how do cats care for its kittens",
+        "what is the social structure of the cat breed"
+      ],
+      "responses":[
+        "Cats are known for their independent behavior. They exhibit a range of social behaviors, including grooming, vocalizations, and playfulness."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag":"behavior",
+      "patterns":[
+        "how do elephants behave",
+        "what is the behavior of elephants",
+        "how do elephants interact with each other",
+        "what are the social behaviors of elephants",
+        "what is the mating behavior of elephants",
+        "how do elephants raise their young",
+        "what is the territorial behavior of elephants",
+        "how do elephants establish dominance",
+        "what are the social structures of elephant herds",
+        "how do elephants care for their calves",
+        "what is the social structure of an elephant herd"
+      ],
+      "responses":[
+        "Elephants are highly social animals that live in matriarchal herds. They exhibit complex social behaviors, including vocalizations, body language, and cooperative care of their young."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "pregnancy_period",
+      "patterns": [
+        "how long is the pregnancy period of a lion",
+        "what is the gestation period of a lion",
+        "how long does a lion carry its cubs",
+        "what is the duration of lion pregnancy",
+        "how many months is a lion pregnant",
+        "when do lions give birth",
+        "what is the reproductive cycle of a lion",
+        "how long does it take for a lion to have cubs",
+        "what is the average gestation time for lions",
+        "how long do lions nurse their cubs",
+        "what is the total pregnancy time for a lion"
+      ],
+      "responses":[
+        "The gestation(pregnancy) period of a lion is approximately 110 days, or about 3.5 months."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "pregnancy_period",
+      "patterns": [
+        "how long is the pregnancy period of an elephant",
+        "what is the gestation period of an elephant",
+        "how long does an elephant carry its calf",
+        "what is the pregnancy time period of an elephant",
+        "what is the duration of elephant pregnancy",
+        "how many months is an elephant pregnant",
+        "when do elephants give birth",
+        "what is the reproductive cycle of an elephant",
+        "how long does it take for an elephant to have a calf",
+        "what is the average gestation time for elephants",
+        "how long do elephants nurse their calves"
+      ],
+      "responses":[
+        "The gestation period of an elephant is approximately 22 months, making it one of the longest in the animal kingdom."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "pregnancy_period",
+      "patterns": [
+        "how long is the pregnancy period of a dog",
+        "what is the gestation period of a dog",
+        "how long does a dog carry its puppies",
+        "what is the duration of dog pregnancy",
+        "how many months is a dog pregnant",
+        "when do dogs give birth",
+        "what is the reproductive cycle of a dog",
+        "how long does it take for a dog to have puppies",
+        "what is the average gestation time for dogs",
+        "how long do dogs nurse their puppies"
+      ],
+      "responses":[
+        "The gestation period of a dog is approximately 58-68 days, or about 2 months."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "pregnancy_period",
+      "patterns": [
+        "how long is the pregnancy period of a cat",
+        "what is the gestation period of a cat",
+        "how long does cats carry their kittens",
+        "what is the duration of cat pregnancy",
+        "how many months are cats pregnant",
+        "when do cats give birth",
+        "what is the reproductive cycle of a cat",
+        "how long does it take for a cat to have kittens",
+        "what is the average gestation time for a cat",
+        "how long do cats nurse their kittens"
+      ],
+      "responses":[
+        "The gestation period of a cat is approximately 63-65 days, or about 2 months."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag":"social_behavior",
+      "patterns":[
+        "how do lions socialize",
+        "what is the social structure of lions",
+        "how do lions communicate with each other",
+        "do lions live in groups or alone",
+        "how do lions establish dominance in a pride",
+        "what are the social behaviors of lions",
+        "how do lions care for their young",
+        "do lions have social hierarchies",
+        "how do lions interact with other animals",
+        "what is the mating behavior of lions"
+      ],
+      "responses":[
+        "Lions are social animals that live in prides. They exhibit complex social behaviors, including grooming, vocalizations, and cooperative hunting."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "social_behavior",
+      "patterns":[
+        "how do elephants socialize",
+        "what is the social structure of elephants",
+        "how do elephants communicate with each other",
+        "do elephants live in groups or alone",
+        "how do elephants establish dominance in a herd",
+        "what are the social behaviors of elephants",
+        "how do elephants care for their young",
+        "do elephants have social hierarchies",
+        "how do elephants interact with other animals",
+        "what is the mating behavior of elephants"
+      ],
+      "responses":[
+        "Elephants are highly social animals that live in matriarchal herds. They exhibit complex social behaviors, including vocalizations, body language, and cooperative care of their young."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag":"social_behavior",
+      "patterns":[
+        "how do cats adapt to their environment",
+        "what is the social structure of this cat breed",
+        "how do cat communicate with each other",
+        "do cat live in groups or alone",
+        "how do cat establish dominance in a pride",
+        "what are the social behaviors of cat",
+        "how do cat care for their young",
+        "do cat have social hierarchies",
+        "how do cat interact with other animals",
+        "what is the mating behavior of cat"
+      ],
+      "responses":[
+        "Cats are generally solitary animals, but they can form social bonds with other cats and humans. They communicate through vocalizations, body language, and scent marking."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "social_behavior",
+      "patterns":[
+        "how do dogs socialize",
+        "what is the social structure of this dog breed",
+        "how do dogs communicate with each other",
+        "do dogs live in groups or alone",
+        "how do dogs establish dominance in a pack",
+        "what are the social behaviors of dogs",
+        "how do dogs care for their young",
+        "do dogs have social hierarchies",
+        "how do dogs interact with other animals",
+        "what is the mating behavior of dogs"
+      ],
+      "responses":[
+        "Dogs socialize through various behaviors and interactions, both with other dogs and humans. Here's how they typically socialize:"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag":"sleep_pattern",
+      "patterns":[
+        "how do lions sleep",
+        "when do lions sleep",
+        "what is the sleep behavior of lions",
+        "do lions sleep during the day or night",
+        "how long do lions sleep",
+        "where do lions sleep",
+        "what is the sleeping pattern of lions",
+        "do lions have a specific sleeping area",
+        "how do lions rest",
+        "do lions sleep in groups or alone",
+        "what is the average sleep duration of a lion"
+      ],
+      "responses":[
+        "Lions are known to be crepuscular, meaning they are most active during dawn and dusk. They can sleep for 16 to 20 hours a day, often resting in shaded areas during the heat of the day."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag":"sleep_pattern",
+      "patterns":[
+        "how do elephants sleep",
+        "what is the sleep behavior of elephants",
+        "do elephants sleep during the day or night",
+        "how long do elephants sleep",
+        "where do elephants sleep",
+        "what is the sleeping pattern of elephants",
+        "do elephants have a specific sleeping area",
+        "how do elephants rest",
+        "do elephants sleep in groups or alone",
+        "what is the average sleep duration of an elephant"
+      ],
+      "responses":[
+        "Elephants are known to be crepuscular, meaning they are most active during dawn and dusk. They can sleep on average of 2 hours a day, often resting while standing or lying down."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag":"sleep_pattern",
+      "patterns":[
+        "how does a cat sleep",
+        "when does a cat sleep",
+        "what is the sleep behavior of a cat",
+        "do cats sleep during the day or night",
+        "how long does a cat sleep",
+        "where do cats sleep",
+        "what is the sleeping pattern of a cat",
+        "do cats have a specific sleeping area",
+        "how does a cat rest",
+        "does a cat sleep in group or alone",
+        "what is the average sleep duration of a cat"
+      ],
+      "responses":[
+        "Cats are known to be crepuscular, meaning they are most active during dawn and dusk. They can sleep for 12 to 16 hours a day, often resting in cozy spots around the house."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag":"sleep_pattern",
+      "patterns":[
+        "how do dogs sleep",
+        "when do dogs sleep",
+        "what is the sleep behavior of this dog",
+        "do dogs sleep during the day or night",
+        "how long do dogs sleep",
+        "where do dogs sleep",
+        "what is the sleeping pattern of this dog",
+        "do dogs have a specific sleeping area",
+        "how do dogs rest",
+        "do dogs sleep in groups or alone",
+        "what is the average sleep duration of a dog"
+      ],
+      "responses":[
+        "Dogs are known to be crepuscular, meaning they are most active during dawn and dusk. They can sleep for 12 to 14 hours a day, often resting in comfortable areas close to their owners."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag":"maturity_period",
+      "patterns":[
+        "how long does it take for a lion to mature",
+        "what is the maturity period of a lion",
+        "when do lions reach sexual maturity",
+        "when does a lion mature",
+        "when do lions mature",
+        "how long does it take for a lion to grow up",
+        "what is the age of maturity for lions",
+        "when do lions become adults",
+        "how long does it take for a lion to become independent",
+        "what is the growth rate of lions",
+        "when do lions start breeding",
+        "how long does it take for a lion to reach full size"
+      ],
+      "responses":[
+        "A lion reaches sexual maturity between 2 to 3 years of age, but they are considered fully mature in terms of physical size and strength by around 4 to 5 years."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "maturity_period",
+      "patterns":[
+        "how long does it take for an elephant to mature",
+        "what is the maturity period of an elephant",
+        "when does an elephant mature",
+        "when do elephants mature",
+        "when does an elephant reach sexual maturity",
+        "how long does it take for an elephant to grow up",
+        "what is the age of maturity for elephants",
+        "when do elephants become adults",
+        "how long does it take for an elephant to become independent",
+        "what is the growth rate of elephants",
+        "when do elephants start breeding",
+        "how long does it take for an elephant to reach full size"
+      ],
+      "responses":[
+        "Elephants reach sexual maturity between 10 to 14 years of age, but they are considered fully mature by around 20 to 25 years."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "maturity_period",
+      "patterns":[
+        "how long does it take for this cat to mature",
+        "what is the maturity period of this cat",
+        "when does a cat mature",
+        "when do cats mature",
+        "when does this cat reach sexual maturity",
+        "how long does it take for this cat to grow up",
+        "what is the age of maturity for this cat",
+        "when does this cat become an adult",
+        "how long does it take for this cat to become independent",
+        "what is the growth rate of this cat",
+        "when does this cat start breeding",
+        "how long does it take for this cat to reach full size"
+      ],
+      "responses":[
+        "Cats typically reach sexual maturity between 6 to 12 months of age, depending on the breed. They are considered fully mature by around 7 years."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "maturity_period",
+      "patterns":[
+        "how long does it take for this dog to mature",
+        "what is the maturity period of this dog",
+        "when does a dog mature",
+        "when do dogs mature",
+        "when does this dog reach sexual maturity",
+        "how long does it take for this dog to grow up",
+        "what is the age of maturity for this dog",
+        "when does this dog become an adult",
+        "how long does it take for this dog to become independent",
+        "what is the growth rate of this dog",
+        "when does this dog start breeding",
+        "how long does it take for this dog to reach full size"
+      ],
+      "responses":[
+        "The maturity period for dogs varies by breed, but most dogs reach sexual maturity between 6 months to 2 years of age, and full maturity around 1-2 years. Larger breeds tend to take longer to mature."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag":"number_of_cubs",
+      "patterns":[
+        "how many cubs does a lion have",
+        "how many babies can a lion have",
+        "what is the average number of cubs for a lion",
+        "how many cubs are born to a lioness",
+        "what is the litter size of a lion",
+        "how many cubs do lions typically have",
+        "do lions have single or multiple births",
+        "how many cubs can a lioness have at once",
+        "what is the maximum number of cubs for a lion",
+        "how often do lions give birth to cubs"
+      ],
+      "responses":[
+        "A lioness typically gives birth to 1 to 4 cubs, but litters of up to 6 cubs have been reported. The average litter size is around 2 to 3 cubs."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag":"number_of_cubs",
+      "patterns":[
+        "how many calves does an elephant have",
+        "what is the average number of calves for an elephant",
+        "how many calves are born to an elephant",
+        "how many babies does an elephant have",
+        "what is the litter size of an elephant",
+        "how many calves do elephants typically have",
+        "do elephants have single or multiple births",
+        "how many calves can an elephant have at once",
+        "what is the maximum number of calves for an elephant",
+        "how often do elephants give birth to calves"
+      ],
+      "responses":[
+        "An elephant typically gives birth to 1 calf, although twins can occur in rare cases. The average interval between births is about 4 to 5 years."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag":"number_of_cubs",
+      "patterns":[
+        "how many kittens does a cat have",
+        "what is the average number of kittens for a cat",
+        "how many kittens are born to a cat",
+        "how many babies does a cat have",
+        "what is the litter size of a cat",
+        "how many kittens do cats typically have",
+        "do cats have single or multiple births",
+        "how many kittens can a cat have at once",
+        "what is the maximum number of kittens for a cat",
+        "how often do cats give birth to kittens"
+      ],
+      "responses":[
+        "A cat typically gives birth to 1 to 8 kittens, with an average litter size of around 3 to 5 kittens."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag":"number_of_cubs",
+      "patterns":[
+        "how many puppies does a dog have",
+        "what is the average number of puppies for a dog",
+        "how many puppies are born to a dog",
+        "how many babies does a dog have",
+        "what is the litter size of a dog",
+        "how many puppies do dogs typically have",
+        "do dogs have single or multiple births",
+        "how many puppies can a dog have at once",
+        "what is the maximum number of puppies for a dog",
+        "how often do dogs give birth to puppies"
+      ],
+      "responses":[
+        "A dog typically gives birth to 1 to 12 puppies, depending on the breed and size. The average litter size is around 5 to 6 puppies."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag":"speed",
+      "patterns":[
+        "how fast can a lion run",
+        "what is the speed of a lion",
+        "what is the speed of a lion",
+        "tell the speed of a lion",
+        "how fast can lions run",
+        "what is the top speed of a lion",
+        "how quickly can a lion sprint",
+        "what is the average speed of a lion",
+        "how fast can a lion run",
+        "how fast do lions chase prey",
+        "what is the running speed of a lion",
+        "how fast can a lioness run"
+      ],
+      "responses":[
+        "Lions can run at speeds of up to 50 miles per hour (80 kilometers per hour) in short bursts, but they can only maintain this speed for a short distance."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag":"speed",
+      "patterns":[
+        "how fast can a dog run",
+        "what is the speed of a dog",
+        "what is the speed of dogs",
+        "how fast can dogs run",
+        "how fast can a dog run",
+        "what is the top speed of a dog",
+        "how quickly can a dog sprint",
+        "what is the average speed of a dog",
+        "how fast do dogs chase prey",
+        "what is the running speed of a dog",
+        "how fast can a dog breed run",
+        "how fast can a puppy run"
+      ],
+      "responses":[
+        "Dogs can run at speeds ranging from 15 to 45 miles per hour (24 to 72 kilometers per hour), depending on the breed."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag":"speed",
+      "patterns":[
+        "how fast can a cat run",
+        "what is the speed of a cat",
+        "how fast can cats run",
+        "what is the top speed of a cat",
+        "what is the speed of cats",
+        "how fast can a cat run",
+        "how quickly can a cat sprint",
+        "what is the average speed of a cat",
+        "how fast do cats chase prey",
+        "what is the running speed of a cat",
+        "how fast can a cat breed run",
+        "how fast can a kitten run"
+      ],
+      "responses":[
+        "Cats can run at speeds of up to 30 miles per hour (48 kilometers per hour) in short bursts."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag":"speed",
+      "patterns":[
+        "how fast can an elephant run",
+        "what is the speed of an elephant",
+        "how fast can elephants run",
+        "what is the speed of an elephant",
+        "how fast can a elephant run",
+        "what is the top speed of an elephant",
+        "how quickly can an elephant sprint",
+        "what is the average speed of an elephant",
+        "how fast do elephants chase prey",
+        "what is the running speed of an elephant",
+        "how fast can a baby elephant run",
+        "how fast can a herd of elephants run"
+      ],
+      "responses":[
+        "Elephants can run at speeds of up to 25 miles per hour (40 kilometers per hour) in short bursts."
+      ],
+      "context_set": ""
+    }
+
+  ]
+}
