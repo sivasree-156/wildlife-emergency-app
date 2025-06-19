@@ -1,16 +1,43 @@
-# vvxplore
+# 🐾 Wildlife Emergency Assistant – Web Version
 
-A new Flutter project.
+A responsive Angular-based web application designed to assist in wildlife emergencies by enabling real-time alerts, animal identification tracking, and support coordination between users and authorities. This platform complements the mobile version and offers administrative tools and a dashboard for improved response management.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 📍 **Real-Time Location Tracking** – View and respond to wildlife incidents on a live map.
+- 🐾 **Animal Incident Logs** – List and manage past animal encounters or emergency cases.
+- 📊 **Admin Dashboard** – Analyze reports, monitor alerts, and control system data.
+- 🔎 **Smart Search** – Quickly search incidents by animal name or area.
+- 🌐 **Responsive UI** – Fully mobile-friendly interface built using Angular Material.
+- 🔐 **Authentication** – Secure login and session handling via Firebase.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Tech Stack
+
+| Category       | Technologies                                |
+|----------------|---------------------------------------------|
+| Frontend       | Angular 15+, TypeScript, HTML5, CSS3        |
+| UI Framework   | Angular Material, Bootstrap (optional)      |
+| Backend        | Firebase (Firestore, Auth)                  |
+| Tools          | VS Code, Git, GitHub                        |
+| Deployment     | Firebase Hosting / GitHub Pages             |
+
+---
+
+## 📁 Project Structure
+
+```bash
+src/
+├── app/
+│   ├── components/
+│   ├── services/
+│   ├── models/
+│   ├── pages/
+│   └── app.module.ts
+├── assets/
+├── environments/
+├── index.html
+└── main.ts
